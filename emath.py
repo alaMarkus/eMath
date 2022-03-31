@@ -5,10 +5,12 @@ import math as m
 import array as arr
 
 def acosd(x):
-    #print(x)
+    """acos in degrees"""
+    #print(x)s
     return m.acos(x)*180/3.1415
 
 def cosinilause(vastainen, viereinen1,viereinen2):
+    "cosinilause description"
     a = vastainen
     b = viereinen2
     c = viereinen1
@@ -137,3 +139,10 @@ def equationOfLine(a,b):
     kb = [m,c]
     return kb
 
+def solidCylinderInertia(m,R):
+    """
+    Axial inertia, rotating like axles normally rotate
+    m = mass of cylinder
+    R = radius of cylinder
+    """
+    return 0.5*m*R**2

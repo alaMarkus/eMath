@@ -1,1 +1,2 @@
-./emathvenv
+emathenv/
+__pycache__/
